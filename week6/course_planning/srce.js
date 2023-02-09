@@ -19,7 +19,7 @@ process.stdin.on('data', function (data) {
 
 process.stdin.on('end', function () {
     console.table(courseDependents);
-    // solve();
+    solve();
 });
 
 function findOne(haystack, arr) {
